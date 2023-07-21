@@ -1,0 +1,11 @@
+.container-conteudo {
+    
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+
+  .container-conteudo h3, p {
+    margin:20px;
+  }

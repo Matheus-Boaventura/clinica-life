@@ -1,0 +1,23 @@
+.texto-secao-sobre{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lista-secao-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-secao-sobre div{
+    padding-left: 20px;
+}
+
+@media (max-width:768px){
+    .lista-secao-sobre img{
+        display: none;
+    }
+}
